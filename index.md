@@ -1,12 +1,5 @@
 
-![8ddcce24-2e30-4a65-8862-9bf01e1c](https://user-images.githubusercontent.com/99950347/235511694-f241b676-9e53-4811-9c32-51928c939800.png)
-
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
+# Video Player
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
