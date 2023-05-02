@@ -83,6 +83,7 @@
     <OutDir>$(SolutionDir)\Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)\Build\$(Configuration)\</IntDir>
     <PublicIncludeDirectories>$(PublicIncludeDirectories)</PublicIncludeDirectories>
+    <LibraryPath>D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\SDL\libx64;D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\OpenCV\lib;D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\SDL_image\libx64;D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\SDL_mixer\libx64;D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\avcodec\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -93,6 +94,7 @@
     <IntDir>$(SolutionDir)\Build\$(Configuration)\</IntDir>
     <IncludePath>$(SolutionDir)Source\External\SDL\include\$(IncludePath);$(SolutionDir)Source\External\Ffmpeg\include\$(IncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
     <PublicIncludeDirectories>$(PublicIncludeDirectories)</PublicIncludeDirectories>
+    <LibraryPath>D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\SDL\libx64;D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\OpenCV\lib;D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\SDL_image\libx64;D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\SDL_mixer\libx64;D:\Downloads\Video-Player-main\VideoPlayer_Def\Source\External\avcodec\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -112,7 +114,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(ProjectDir)Source\External\SDL\libx86;$(ProjectDir)Source\External\SDL_image\libx86;$(ProjectDir)Source\External\SDL_mixer\libx86;$(ProjectDir)Source\External\OpenCV\lib\Debug;C:\Users\alexd\source\repos\VideoPlayer_Def\Source\External\OpenCV\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;opencv_world470d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;opencv_world470d.lib;avcodec.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -143,7 +145,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)Source\External\SDL\libx64;$(SolutionDir)Source\External\SDL_image\libx64;$(SolutionDir)Source\External\SDL_mixer\libx64;$(SolutionDir)Source\External\OpenCV\lib\Debug;$(SolutionDir)Source\External\Ffmpeg\lib\;C:\Users\alexd\source\repos\VideoPlayer_Def\Source\External\OpenCV\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;opencv_world470d.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;opencv_world470d.lib;avcodec.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
