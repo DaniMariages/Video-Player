@@ -32,7 +32,7 @@ I decided to use OpenCV after trying other more complicated and longer methods. 
 
 TODO 0: Download opencv_world470d.dll from this drive link and put it in the Game folder.
 
-[https://drive.google.com/drive/folders/1E2reKN2OMKGYwkMO8R6Kh1hAZxfOvS1E?usp=sharing]
+[Drive](https://drive.google.com/drive/folders/1E2reKN2OMKGYwkMO8R6Kh1hAZxfOvS1E?usp=sharing)
 
 TODO 1: Open the video file you want to reproduce
 ```C++
