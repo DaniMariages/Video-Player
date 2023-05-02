@@ -1,0 +1,2 @@
+D:\Downloads\VideoPlayerCpp-main\Solution\Build\Debug\VideoPlayerSolution.exe
+C:\Users\alexd\source\repos\VideoPlayer_Def\Build\Debug\VideoPlayerSolution.exe
