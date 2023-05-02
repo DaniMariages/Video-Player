@@ -67,28 +67,15 @@ TODO 6: Get width and height from the video we want to reproduce usin video.get(
     int frameHeight = video.get(CAP_PROP_FRAME_HEIGHT);
 ```
 
-//TODO 7: Create a video righter from the class VideoWriter
+TODO 7: Create a video righter from the class VideoWriter
 ```C++
  VideoWriter output("output.avi", VideoWriter::fourcc('M', 'J', 'P', 'G'), 60, Size(100, 100));
 ```
 
-//TODO 8: Write/Show every frame using de videowriter we created before
+TODO 8: Write/Show every frame using de videowriter we created before
 ```C++
   output.write(frame);
 ```
-
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
 
 ###### Header 6
 
