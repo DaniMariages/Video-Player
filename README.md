@@ -65,7 +65,7 @@ TODO 5: Create a loop (if) using WaitKey() for stopping the video
     }
 ```
 
-TODO 6: Get width and height from the video we want to reproduce usin video.get()
+TODO 6: Get width and height from the video we want to reproduce using video.get()
 ```C++
     int frameWidth = video.get(CAP_PROP_FRAME_WIDTH);
     int frameHeight = video.get(CAP_PROP_FRAME_HEIGHT);
