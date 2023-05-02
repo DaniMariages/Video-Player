@@ -17,7 +17,10 @@ Let's see some examples of pre-rendered videos:
 
 The intro scene of Final Fantasy VII is a prerendered video. As mentioned before, this technique was mostly used in older video games. Yet it can still be seen in introductions or endings of video games.
 
-![https://www.youtube.com/watch?v=MFX594xk4A4&ab_channel=Marcus]
+[![](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+[![s-l600](https://user-images.githubusercontent.com/99950347/235755980-f05ccd45-d4e1-49ab-b69b-79e6f05f7d78.jpg)](https://www.youtube.com/watch?v=MFX594xk4A4&ab_channel=Marcus)
+
 
 ### Header 3
 
