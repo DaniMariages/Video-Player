@@ -32,7 +32,7 @@ I decided to use OpenCV after trying other more complicated and longer methods. 
 
 TODO 0: Download opencv_world470d.dll from this drive link and put it in the Game folder.
 
-https://drive.google.com/drive/folders/1E2reKN2OMKGYwkMO8R6Kh1hAZxfOvS1E?usp=sharing
+[Drive](https://drive.google.com/drive/folders/1E2reKN2OMKGYwkMO8R6Kh1hAZxfOvS1E?usp=sharing)
 
 TODO 1: Open the video file you want to reproduce
 ```C++
@@ -65,7 +65,7 @@ TODO 5: Create a loop (if) using WaitKey() for stopping the video
     }
 ```
 
-TODO 6: Get width and height from the video we want to reproduce usin video.get()
+TODO 6: Get width and height from the video we want to reproduce using video.get()
 ```C++
     int frameWidth = video.get(CAP_PROP_FRAME_WIDTH);
     int frameHeight = video.get(CAP_PROP_FRAME_HEIGHT);
@@ -80,3 +80,23 @@ TODO 8: Write/Show every frame using de videowriter we created before
 ```C++
   output.write(frame);
 ```
+
+## References
+
+https://en.wikipedia.org/wiki/Cutscene#:~:text=Pre-made%20videos%20used%20in,as%20plain%20text%20and%20audio.
+
+https://en.wikipedia.org/wiki/Full-motion_video
+
+https://www.quora.com/Why-dont-video-games-use-pre-rendered-videos-as-cut-scenes-instead-of-loading-everything-to-make-one
+
+https://www.quora.com/Why-are-video-game-cutscenes-often-rendered-instead-of-just-being-pre-made-videos-that-play
+
+https://www.youtube.com/watch?v=MFX594xk4A4&ab_channel=Marcus
+
+https://es.wikipedia.org/wiki/OpenCV
+
+https://opencv.org/about/
+
+https://www.youtube.com/watch?v=VIg_xQ5ud8s&ab_channel=tochiVision
+
+https://www.youtube.com/watch?v=GyqENnu7cE8&ab_channel=ComputerVisionLab
