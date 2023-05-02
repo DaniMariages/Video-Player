@@ -14,10 +14,9 @@ using namespace std;
 VideoPlayer::VideoPlayer()
 {
     //TODO 1: Open the video file you want to reproduce
-    
 
     //TODO 2:Save the video frames using de class Mat (Matrix)
-    
+
 
     //TODO 6: Get width and height from the video we want to reproduce usin video.get()
 
@@ -32,13 +31,11 @@ VideoPlayer::VideoPlayer()
     while ()
     {
         //TODO 4: Use the imshow() function to give a name for the window and choose what you want to display, in this case the video frame
+
+        //TODO 8: Write / Show every frame using de videowriter we created before
         
 
-        //TODO 8: Write/Show every frame using de videowriter we created before
-        
-
-        //TODO 5: Create a loop (if) using WaitKey() for stopping the video
-
+        //TODO 5: Create a loop(if) using WaitKey() for stopping the video
 
     }
 
