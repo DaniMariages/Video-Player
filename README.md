@@ -30,9 +30,53 @@ I decided to use OpenCV after trying other more complicated and longer methods. 
 
 ## TO DOs
 
+TODO 1: Open the video file you want to reproduce
 ```C++
-
+VideoCapture video("Clip.mp4");
 ```
+
+TODO 2: Save the video frames using de class Mat (Matrix)
+```C++
+Mat frame;
+```
+TODO 3: Create a loop for reading the video, when the video ends or a "esc" is pressed it will close
+```C++
+while (video.read(frame))
+    {
+
+
+    }
+```
+
+TODO 4: Use the imshow() function to give a name for the window and choose what you want to display, in this case the video frame
+```C++
+imshow("Video feed", frame);
+```
+
+TODO 5: Create a loop (if) using WaitKey() for stopping the video
+```C++
+    if (waitKey(25) >= 0)
+    {
+          break;
+    }
+```
+
+TODO 6: Get width and height from the video we want to reproduce usin video.get()
+```C++
+    int frameWidth = video.get(CAP_PROP_FRAME_WIDTH);
+    int frameHeight = video.get(CAP_PROP_FRAME_HEIGHT);
+```
+
+//TODO 7: Create a video righter from the class VideoWriter
+```C++
+ VideoWriter output("output.avi", VideoWriter::fourcc('M', 'J', 'P', 'G'), 60, Size(100, 100));
+```
+
+//TODO 8: Write/Show every frame using de videowriter we created before
+```C++
+  output.write(frame);
+```
+
 
 #### Header 4
 
