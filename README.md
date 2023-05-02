@@ -5,9 +5,9 @@
 
 A pre-rendered video is a sequence in a video game that is not interactive, interrupting the gameplay. Nowadays they are usually used to introduce the game or its story and these videos are much less used nowadays for the following reasons:
 
--Pre-rendered videos take up more space.
--Nowadays it is faster and easier to use real-time rendered video.
--Videos rendered in real time can show changes that may have occurred in the story or modifications that the player may have made.
+*   Pre-rendered videos take up more space.
+*   Nowadays it is faster and easier to use real-time rendered video.
+*   Videos rendered in real time can show changes that may have occurred in the story or modifications that the player may have made.
 
 On the other hand these videos allow developers to deliver high-quality graphics and visual effects that are difficult or impossible to achieve in real-time, helping to create a more cinematic and emotionally resonant game world.
 
