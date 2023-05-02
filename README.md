@@ -28,19 +28,10 @@ OpenCV is a free computer vision library originally developed by Intel. OpenCV s
 
 I decided to use OpenCV after trying other more complicated and longer methods. With OpenCV we have the advantage that it is already prepared to play a video in a very fast and easy way. 
 
-```C++
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## TO DOs
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+```C++
+
 ```
 
 #### Header 4
