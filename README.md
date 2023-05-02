@@ -11,20 +11,24 @@ A pre-rendered video is a sequence in a video game that is not interactive, inte
 
 On the other hand these videos allow developers to deliver high-quality graphics and visual effects that are difficult or impossible to achieve in real-time, helping to create a more cinematic and emotionally resonant game world.
 
-Let's see some examples of pre-rendered videos:
+Let's see one example of a pre-rendered video:
 
 ### Final Fantasy VII
 
 The intro scene of Final Fantasy VII is a prerendered video. As mentioned before, this technique was mostly used in older video games. Yet it can still be seen in introductions or endings of video games.
 
-[![](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
 [![s-l600](https://user-images.githubusercontent.com/99950347/235755980-f05ccd45-d4e1-49ab-b69b-79e6f05f7d78.jpg)](https://www.youtube.com/watch?v=MFX594xk4A4&ab_channel=Marcus)
 
 
-### Header 3
+## OpenCV
 
-```js
+OpenCV is a free computer vision library originally developed by Intel. OpenCV stands for Open Computer Vision. It offers algorithms that can be used to detect and recognize faces, identify objects, classify human actions in videos, track camera movements, track moving objects, extract 3D models of objects among many other options. This time we will use it only to play a video.
+
+### Why OpenCV?
+
+I decided to use OpenCV after trying other more complicated and longer methods. With OpenCV we have the advantage that it is already prepared to play a video in a very fast and easy way. 
+
+```C++
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
