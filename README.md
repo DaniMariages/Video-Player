@@ -80,3 +80,23 @@ TODO 8: Write/Show every frame using de videowriter we created before
 ```C++
   output.write(frame);
 ```
+
+## References
+
+https://en.wikipedia.org/wiki/Cutscene#:~:text=Pre-made%20videos%20used%20in,as%20plain%20text%20and%20audio.
+
+https://en.wikipedia.org/wiki/Full-motion_video
+
+https://www.quora.com/Why-dont-video-games-use-pre-rendered-videos-as-cut-scenes-instead-of-loading-everything-to-make-one
+
+https://www.quora.com/Why-are-video-game-cutscenes-often-rendered-instead-of-just-being-pre-made-videos-that-play
+
+https://www.youtube.com/watch?v=MFX594xk4A4&ab_channel=Marcus
+
+https://es.wikipedia.org/wiki/OpenCV
+
+https://opencv.org/about/
+
+https://www.youtube.com/watch?v=VIg_xQ5ud8s&ab_channel=tochiVision
+
+https://www.youtube.com/watch?v=GyqENnu7cE8&ab_channel=ComputerVisionLab
