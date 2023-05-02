@@ -13,7 +13,7 @@ On the other hand these videos allow developers to deliver high-quality graphics
 
 Let's see some examples of pre-rendered videos:
 
-###Final Fantasy VII
+### Final Fantasy VII
 
 The intro scene of Final Fantasy VII is a prerendered video. As mentioned before, this technique was mostly used in older video games. Yet it can still be seen in introductions or endings of video games.
 
