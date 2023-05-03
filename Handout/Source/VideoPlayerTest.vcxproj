@@ -92,7 +92,7 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)\Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)\Build\$(Configuration)\</IntDir>
-    <IncludePath>$(SolutionDir)Source\External\SDL\include\$(IncludePath);$(SolutionDir)Source\External\Ffmpeg\include\$(IncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)Source\External\SDL\include\$(IncludePath);$(SolutionDir)Source\External\avcodec\include\$(IncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)Source\External\OpenCV\include\$(IncludePath)</IncludePath>
     <PublicIncludeDirectories>$(PublicIncludeDirectories)</PublicIncludeDirectories>
     <LibraryPath>D:\Downloads\Video-Player-main\Handout\Source\External;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
@@ -139,12 +139,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Source\External\SDL\include\;$(SolutionDir)Source\External\SDL_image\include\;$(SolutionDir)Source\External\OpenCV\include\;$(SolutionDir)Source\External\SDL_mixer\include\;$(SolutionDir)Source\External\Ffmpeg\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Source\External\SDL\include\;$(SolutionDir)Source\External\SDL_image\include\;$(SolutionDir)Source\External\OpenCV\include\;$(SolutionDir)Source\External\SDL_mixer\include\;$(SolutionDir)Source\External\avcodec\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)Source\External\SDL\libx64;$(SolutionDir)Source\External\SDL_image\libx64;$(SolutionDir)Source\External\SDL_mixer\libx64;$(SolutionDir)Source\External\OpenCV\lib\Debug;$(SolutionDir)Source\External\Ffmpeg\lib\;C:\Users\alexd\source\repos\VideoPlayer_Def\Source\External\OpenCV\lib;D:\Downloads\Video-Player-main\Handout\Source\External\OpenCV\lib;D:\Downloads\Video-Player-main\Handout\Source\External\avcodec\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Source\External\SDL\libx64;$(SolutionDir)Source\External\SDL_image\libx64;$(SolutionDir)Source\External\SDL_mixer\libx64;$(SolutionDir)Source\External\OpenCV\lib\;$(SolutionDir)Source\External\avcodec\lib\;C:\Users\alexd\source\repos\VideoPlayer_Def\Source\External\OpenCV\lib;D:\Downloads\Video-Player-main\Handout\Source\External\OpenCV\lib;D:\Downloads\Video-Player-main\Handout\Source\External\avcodec\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;opencv_world470d.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
